@@ -1,0 +1,1 @@
+To connect client and server on different system but connected on same network use private IPA of server .
