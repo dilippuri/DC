@@ -1,0 +1,25 @@
+struct gcdin{
+	int x;
+	int y;
+};
+struct gcdout{
+	int z;
+};
+program GCD_P{
+	version GCD_V{
+		gcdout GCD(gcdin) = 1;
+	}=1;
+}= 0x3434001;
+
+struct calc_in
+{
+	int arg1;
+	int arg2;
+};
+
+program CALC_PROG {
+	version CALC_VERS {
+		int CALC_PROC(calc_in) = 1 ;
+	} = 1; 
+
+} = 0x3434000;
